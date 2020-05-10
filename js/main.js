@@ -186,7 +186,7 @@ $(document).ready(function(){
     });
 
     $('.features-carousel').owlCarousel({
-      items:5,
+      items:6,
       autoplay:true,
       autoplayTimeout: 4000,
       autoplaySpeed: 500,
@@ -205,7 +205,13 @@ $(document).ready(function(){
               items: 2,
           },
           900: {
-              items: 4,
+              items: 3,
+          },
+          1100: {
+            items: 4,
+          },
+          1600: {
+            items: 6,
           }
 
       }

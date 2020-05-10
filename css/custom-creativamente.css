@@ -1,3 +1,6 @@
+body {
+    overscroll-behavior-y: none;
+}
 #logo img {
     width: 100px;
 }
@@ -29,5 +32,36 @@
 .features-carousel span{
 
     display: inline-block;
-    width: 70px;
+    width: 45%;
+}
+
+#header.header-scrolled{
+    padding: 6px 0;
+    background-color:rgba(255, 255, 255, 1);
+    color:gray !important;
+}
+#header.header-scrolled a{
+    color:gray !important;
+    font-size: 12px;
+}
+
+#header.header-scrolled .ticker-btn{
+    color:white !important;
+}
+
+.group-logo-images {
+    width: 70% !important;
+}
+
+.footer-area{
+    padding-bottom: 70px;
+}
+
+.map{
+    height: calc(100vh - 46px);
+    width: 100%;
+    margin: 0;
+    margin-bottom: -6px;
+    padding: 0;
+    filter: grayscale(30%);
 }
