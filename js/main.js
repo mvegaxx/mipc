@@ -166,7 +166,6 @@ $(document).ready(function(){
         items:2,
         margin:30,
         autoplay:true,
-        loop:true,
         dots: true,       
         responsive: {
             0: {
