@@ -71,3 +71,12 @@ body {
     min-height: 30vh;
     margin-bottom: 5vh;
 }
+
+.overlay.overlay-bg.intelisis-bg {
+    background-color:rgba(62, 47, 75, 0.9);
+}
+
+.callto-action-area.intelisis-call-action{
+    background-color:rgba(62, 47, 75, 1);
+
+}
