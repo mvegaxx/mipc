@@ -191,7 +191,6 @@ $(document).ready(function(){
       autoplaySpeed: 500,
       slideTransition: 'linear',
       autoplayHoverPause: true,
-      loop: true,
       dots: true,  
       responsive: {
           0: {

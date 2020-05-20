@@ -65,3 +65,9 @@ body {
     padding: 0;
     filter: grayscale(30%);
 }
+
+/* Intelisis page */
+.single-service.intelisis-service {
+    min-height: 30vh;
+    margin-bottom: 5vh;
+}
